@@ -1,0 +1,55 @@
+{
+  "name": "@repup/reactivity",
+  "private": false,
+  "version": "1.0.0",
+  "displayName": "Repup Reactivity",
+  "description": "A lightweight, smaller javascript reactivity system.",
+  "author": {
+    "email": "thestackmastery@gmail.com",
+    "name": "Anuj Kumar",
+    "url": "https://github.com/thestackmastery"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/reactivity.umd.cjs",
+  "module": "./dist/reactivity.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/reactivity.js",
+      "require": "./dist/reactivity.umd.cjs"
+    }
+  },
+  "scripts": {
+    "test": "vitest",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "^3.3.1",
+    "vitest": "^0.34.2"
+  },
+  "keywords": [
+    "reactivity",
+    "typescript",
+    "javascript",
+    "framework",
+    "library",
+    "vue3",
+    "reactjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thestackmastery/reactivity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thestackmastery/reactivity/issues"
+  },
+  "homepage": "https://github.com/thestackmastery/reactivity",
+  "files": [
+    "dist"
+  ]
+}
